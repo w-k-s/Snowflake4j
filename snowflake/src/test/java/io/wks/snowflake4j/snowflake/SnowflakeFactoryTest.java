@@ -1,6 +1,5 @@
 package io.wks.snowflake4j.snowflake;
 
-import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
 
 import java.time.*;
