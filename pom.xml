@@ -15,6 +15,15 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <goals>deploy</goals>
+                    <autoversionsubmodules>true</autoversionsubmodules>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <packaging>pom</packaging>
@@ -57,4 +66,12 @@
             <url>https://maven.pkg.github.com/w-k-s/Snowflake4j</url>
         </repository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:git:https://github.com/w-k-s/Snowflake4j</connection>
+        <url>scm:git:https://github.com/w-k-s/Snowflake4j</url>
+        <developerConnection>scm:git:https://github.com/w-k-s/Snowflake4j</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
