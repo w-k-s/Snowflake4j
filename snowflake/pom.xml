@@ -4,7 +4,7 @@
     <parent>
         <artifactId>snowflake4j</artifactId>
         <groupId>io.wks.snowflake4j</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <groupId>io.wks.snowflake4j</groupId>
