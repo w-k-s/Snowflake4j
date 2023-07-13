@@ -5,6 +5,7 @@
         <artifactId>snowflake4j</artifactId>
         <groupId>io.wks.snowflake4j</groupId>
         <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>io.wks.snowflake4j</groupId>
